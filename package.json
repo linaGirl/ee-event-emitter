@@ -1,17 +1,17 @@
 {
-      "name":           "ee-events"
+      "name":           "ee-event-emitter"
     , "description":    "event handler similar to the node.js eventEmitter class"
     , "version":        "0.1.0"
-    , "homepage":       "https://github.com/eventEmitter/ee-events"
+    , "homepage":       "https://github.com/eventEmitter/ee-event-emitter"
     , "author":         "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "repository": {
-        "url":          "https://github.com/eventEmitter/ee-events"
+        "url":          "https://github.com/eventEmitter/ee-event-emitter"
     }
     , "engines": {
         "node":         "*"
     }
     , "bugs": {
-        "url":          "https://github.com/eventEmitter/ee-events/issues"
+        "url":          "https://github.com/eventEmitter/ee-event-emitter/issues"
     }
     , "dependencies": {
           "ee-class":   ">=0.1.3"
