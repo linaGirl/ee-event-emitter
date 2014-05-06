@@ -1,3 +1,3 @@
 
 
-	module.exports = require( "./lib/EventEmitter" );
+	module.exports = require('./lib/EventEmitter');
