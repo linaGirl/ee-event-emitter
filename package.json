@@ -1,7 +1,7 @@
 {
       "name"                        : "ee-event-emitter"
     , "description"                 : "An EventEmitter implementation"
-    , "version"                     : "0.2.0"
+    , "version"                     : "0.2.1"
     , "homepage"                    : "https://github.com/eventEmitter/ee-event-emitter"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "license"                     : "MIT"
