@@ -1,9 +1,9 @@
 {
       "name"                        : "ee-event-emitter"
-    , "description"                 : "An EventEmitter implementation"
-    , "version"                     : "0.2.1"
+    , "description"                 : "A portable event emitter class"
+    , "version"                     : "0.2.2"
     , "homepage"                    : "https://github.com/eventEmitter/ee-event-emitter"
-    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
     , "license"                     : "MIT"
     , "repository": {
           "url"                     : "https://github.com/eventEmitter/ee-event-emitter.git"
@@ -16,7 +16,7 @@
         "url"                       : "https://github.com/eventEmitter/ee-event-emitter/issues"
     }
     , "dependencies": {
-          "ee-class"                : "1.0.x"
+          "ee-class"                : "^1.2.x"
         , "ee-log"                  : "0.2.x"
     }
     , "devDependencies": {
