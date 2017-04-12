@@ -1,5 +1,5 @@
 {
 
-	module.exports = require('./lib/EventEmitter');
+	module.exports = require('./src/EventEmitter');
 
 }
