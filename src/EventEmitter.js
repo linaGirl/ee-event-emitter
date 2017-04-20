@@ -11,15 +11,16 @@
 
 
 
-        constructor() {
+        get eventHandlers() {
+            if (!this._eventHandlers) {
+                Object.defineProperty(this, '_eventHandlers', {
+                      value: new Map()
+                    , configurable: true
+                });
+            }
 
-            // store events in a hidden proeprty
-            Object.defineProperty(this, 'eventHandlers', {
-                  value: new Map()
-                , configurable: true
-            });
+            return this._eventHandlers;
         }
-
 
 
 
